@@ -25,10 +25,11 @@ type
     ShadowEffect1: TShadowEffect;
     Layout2: TLayout;
     Image1: TImage;
-    Image6: TImage;
     procedure btnNovaProvaClick(Sender: TObject);
     procedure Image1Click(Sender: TObject);
     procedure Image2Click(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
+    procedure Image4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -43,7 +44,8 @@ implementation
 {$R *.fmx}
 
 uses R2DW.Habilitacao.Page.Prova, R2DW.Habilitacao.Page.CadPergunta,
-  R2DW.HABILITACAO.MODEL;
+  R2DW.HABILITACAO.MODEL, R2DW.Habilitacao.Page.Relatorio,
+  R2DW.Habilitacao.Page.Desempenho;
 
 procedure TPageMain.btnNovaProvaClick(Sender: TObject);
 begin
@@ -52,9 +54,11 @@ begin
 
   PageProva.Show;
   DataModule1.chamaPergunta;
-  PageProva.Act1.Execute;
+  PageProva.lblCronometro.Visible := true;
   PageProva.lblNQuestao.Text := 'Questão: 1 de 30';
   PageProva.btnAnterior.Enabled := false;
+  PageProva.ComErros := false;
+  PageProva.Act1.Execute;
 
 end;
 
@@ -69,9 +73,33 @@ end;
 
 procedure TPageMain.Image2Click(Sender: TObject);
 begin
-  // SQL PARA VER QUANTOS REGISTROS TEM
+    if NOT Assigned(PageProva) then
+  Application.CreateForm(TPageProva, PageProva);
 
-  //  SELECT COUNT(ID_ERRADAS) AS QTD FROM TAB_ERRADAS
+  PageProva.Show;
+  DataModule1.ProvaComErros;
+  PageProva.Act1.Execute;
+  PageProva.lblNQuestao.Text := 'Questão: 1 de 30';
+  PageProva.btnAnterior.Enabled := false;
+  PageProva.ComErros := true;
+  PageProva.lblCronometro.Visible := true;
+end;
+
+procedure TPageMain.Image3Click(Sender: TObject);
+begin
+ if NOT Assigned(PageRelatorio) then
+  Application.CreateForm(TPageRelatorio, PageRelatorio);
+
+  PageRelatorio.Show;
+
+end;
+
+procedure TPageMain.Image4Click(Sender: TObject);
+begin
+ if NOT Assigned(PageDesempenho) then
+  Application.CreateForm(TPageDesempenho, PageDesempenho);
+
+  PageDesempenho.Show;
 end;
 
 end.
