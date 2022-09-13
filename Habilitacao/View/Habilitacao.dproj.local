@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/16 00:08:21.000.744,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/12 23:39:23.000.441,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/07 21:18:19.000.577,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/07 21:24:47.000.040,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Main.pas</Transaction>
+    <Transaction>2022/08/07 21:24:47.000.040,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Main.fmx</Transaction>
+    <Transaction>2022/08/07 21:24:55.000.084,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Habilitação.dproj</Transaction>
+    <Transaction>2022/08/07 23:55:20.000.262,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Habilitação.dproj=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Habilitacao.dproj</Transaction>
+    <Transaction>2022/08/08 10:19:06.000.601,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 10:20:43.000.276,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Prova.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.fmx</Transaction>
+    <Transaction>2022/08/08 10:20:43.000.276,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Prova.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 22:55:13.000.361,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 23:06:25.000.297,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\Model\R2DW.HABILITACAO.MODEL.pas</Transaction>
+    <Transaction>2022/08/08 23:06:25.000.297,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.dfm=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\Model\R2DW.HABILITACAO.MODEL.dfm</Transaction>
+    <Transaction>2022/08/09 14:54:09.000.747,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/09 15:10:05.000.328,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.CadPergunta.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.fmx</Transaction>
+    <Transaction>2022/08/09 15:10:05.000.328,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.CadPergunta.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/13 22:22:05.000.141,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/13 22:22:44.000.317,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\Unit\R2DW.Habilitacao.PageImg.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/13 22:22:44.000.317,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\Unit\R2DW.Habilitacao.PageImg.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.fmx</Transaction>
+    <Transaction>2022/08/29 14:05:41.000.965,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/29 14:06:12.000.804,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Relatorio.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.fmx</Transaction>
+    <Transaction>2022/08/29 14:06:12.000.804,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Relatorio.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/30 08:46:28.000.928,=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas</Transaction>
+    <Transaction>2022/08/30 08:47:24.000.424,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.fmx=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Desempenho.fmx</Transaction>
+    <Transaction>2022/08/30 08:47:24.000.424,C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\Unit1.pas=C:\Users\willi\OneDrive\Documentos\Embarcadero\Studio\Projects\Habilitacao\View\R2DW.Habilitacao.Page.Desempenho.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,15 @@
+program Habilitacao;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  R2DW.Habilitacao.Page.Main in 'R2DW.Habilitacao.Page.Main.pas' {PageMain},
+  R2DW.Habilitacao.Page.Prova in 'R2DW.Habilitacao.Page.Prova.pas' {PageProva};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TPageMain, PageMain);
+  Application.Run;
+end.

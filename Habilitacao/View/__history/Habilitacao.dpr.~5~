@@ -1,0 +1,17 @@
+program Habilitacao;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  R2DW.Habilitacao.Page.Main in 'R2DW.Habilitacao.Page.Main.pas' {PageMain},
+  R2DW.Habilitacao.Page.Prova in 'R2DW.Habilitacao.Page.Prova.pas' {PageProva},
+  R2DW.HABILITACAO.MODEL in '..\Model\R2DW.HABILITACAO.MODEL.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TPageMain, PageMain);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.
