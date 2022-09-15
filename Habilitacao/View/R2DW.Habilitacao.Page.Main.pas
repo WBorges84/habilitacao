@@ -33,7 +33,7 @@ type
   private
     { Private declarations }
   public
-  testeGIT : String;
+
     { Public declarations }
   end;
 
