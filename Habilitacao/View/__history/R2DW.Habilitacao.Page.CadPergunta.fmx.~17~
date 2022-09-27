@@ -17379,36 +17379,45 @@ object PageCadastro: TPageCadastro
         object Label2: TLabel
           Align = Client
           StyledSettings = [Family, Style, FontColor]
-          Size.Width = 277.000000000000000000
+          Size.Width = 157.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 20.000000000000000000
           TextSettings.HorzAlign = Center
-          Text = 'Resp 1'
+          Text = 'Resposta 1'
           TabOrder = 0
+        end
+        object CheckBox1: TCheckBox
+          Align = Right
+          Position.X = 157.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Correta'
         end
       end
       object Layout5: TLayout
         Align = Top
         Position.Y = 225.000000000000000000
         Size.Width = 277.000000000000000000
-        Size.Height = 50.000000000000000000
+        Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 5
         object EdtResp1: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
-          Align = Client
+          Align = Center
           TabOrder = 0
           Margins.Left = 10.000000000000000000
           Margins.Right = 10.000000000000000000
           Size.Width = 257.000000000000000000
-          Size.Height = 50.000000000000000000
+          Size.Height = 25.000000000000000000
           Size.PlatformDefault = False
         end
       end
       object Layout7: TLayout
         Align = Top
-        Position.Y = 275.000000000000000000
+        Position.Y = 250.000000000000000000
         Size.Width = 277.000000000000000000
         Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
@@ -17416,36 +17425,45 @@ object PageCadastro: TPageCadastro
         object Label4: TLabel
           Align = Client
           StyledSettings = [Family, Style, FontColor]
-          Size.Width = 277.000000000000000000
+          Size.Width = 157.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 20.000000000000000000
           TextSettings.HorzAlign = Center
-          Text = 'Resp 2'
+          Text = 'Resposta 2'
           TabOrder = 0
+        end
+        object CheckBox2: TCheckBox
+          Align = Right
+          Position.X = 157.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Correta'
         end
       end
       object Layout6: TLayout
         Align = Top
-        Position.Y = 307.000000000000000000
+        Position.Y = 282.000000000000000000
         Size.Width = 277.000000000000000000
-        Size.Height = 50.000000000000000000
+        Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 6
         object EdtResp2: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
-          Align = Client
+          Align = Center
           TabOrder = 0
           Margins.Left = 10.000000000000000000
           Margins.Right = 10.000000000000000000
           Size.Width = 257.000000000000000000
-          Size.Height = 50.000000000000000000
+          Size.Height = 25.000000000000000000
           Size.PlatformDefault = False
         end
       end
       object Layout8: TLayout
         Align = Top
-        Position.Y = 357.000000000000000000
+        Position.Y = 307.000000000000000000
         Size.Width = 277.000000000000000000
         Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
@@ -17453,77 +17471,96 @@ object PageCadastro: TPageCadastro
         object Label5: TLabel
           Align = Client
           StyledSettings = [Family, Style, FontColor]
-          Size.Width = 277.000000000000000000
+          Size.Width = 157.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 20.000000000000000000
           TextSettings.HorzAlign = Center
-          Text = 'Resp 3'
+          Text = 'Resposta 3'
           TabOrder = 0
+        end
+        object CheckBox3: TCheckBox
+          Align = Right
+          Position.X = 157.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Correta'
         end
       end
       object Layout9: TLayout
         Align = Top
-        Position.Y = 389.000000000000000000
+        Position.Y = 339.000000000000000000
         Size.Width = 277.000000000000000000
-        Size.Height = 50.000000000000000000
+        Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 8
         object EdtResp3: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
-          Align = Client
+          Align = Center
           TabOrder = 0
           Margins.Left = 10.000000000000000000
           Margins.Right = 10.000000000000000000
           Size.Width = 257.000000000000000000
-          Size.Height = 50.000000000000000000
+          Size.Height = 25.000000000000000000
           Size.PlatformDefault = False
         end
       end
       object Layout10: TLayout
         Align = Top
-        Position.Y = 439.000000000000000000
+        Position.Y = 364.000000000000000000
         Size.Width = 277.000000000000000000
         Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 9
+        TabOrder = 10
         object Label6: TLabel
           Align = Client
           StyledSettings = [Family, Style, FontColor]
-          Size.Width = 277.000000000000000000
+          Size.Width = 157.000000000000000000
           Size.Height = 32.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Size = 20.000000000000000000
           TextSettings.HorzAlign = Center
-          Text = 'Resp 4'
+          Text = 'Resposta 4'
           TabOrder = 0
+        end
+        object CheckBox4: TCheckBox
+          Align = Right
+          Position.X = 157.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Correta'
         end
       end
       object Layout11: TLayout
         Align = Top
-        Position.Y = 471.000000000000000000
+        Position.Y = 396.000000000000000000
         Size.Width = 277.000000000000000000
-        Size.Height = 50.000000000000000000
+        Size.Height = 25.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 10
+        TabOrder = 11
         object EdtResp4: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
-          Align = Client
+          Align = Center
           TabOrder = 0
           Margins.Left = 10.000000000000000000
           Margins.Right = 10.000000000000000000
           Size.Width = 257.000000000000000000
-          Size.Height = 50.000000000000000000
+          Size.Height = 25.000000000000000000
           Size.PlatformDefault = False
         end
       end
       object Layout12: TLayout
-        Align = Top
-        Position.Y = 521.000000000000000000
+        Align = Bottom
+        Margins.Bottom = 15.000000000000000000
+        Position.Y = 532.000000000000000000
         Size.Width = 277.000000000000000000
         Size.Height = 50.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 11
+        TabOrder = 12
         object btnLimpar: TButton
           Align = Left
           StyledSettings = [Family, Style]
@@ -17557,6 +17594,38 @@ object PageCadastro: TPageCadastro
           TextSettings.Font.Size = 20.000000000000000000
           TextSettings.FontColor = claForestgreen
           OnClick = btnCadastroClick
+        end
+      end
+      object Layout13: TLayout
+        Align = Top
+        Margins.Top = 20.000000000000000000
+        Position.Y = 441.000000000000000000
+        Size.Width = 277.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        object checkImg: TCheckBox
+          Align = Left
+          Margins.Left = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 79.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Imagem?'
+          OnChange = checkImgChange
+        end
+        object edtNomeImg: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Right
+          TabOrder = 1
+          Position.X = 83.000000000000000000
+          Enabled = False
+          Margins.Left = 2.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 184.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
         end
       end
     end
